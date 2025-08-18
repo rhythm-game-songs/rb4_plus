@@ -1,0 +1,67 @@
+(bakerstreet
+   (name "Baker Street")
+   (artist "Gerry Rafferty")
+   (master 1)
+   (context 2000)
+   (song
+      (name         "songs/bakerstreet/bakerstreet")
+      (tracks
+         ((drum (0 1))
+          (bass (2 3))
+          (guitar (4 5))
+          (vocals (6 7))
+          (keys (8 9))
+         )
+      )
+
+      (vocal_parts 1)	; OPTIONAL but REQUIRED for vocal harmony
+
+      (pans         (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0))
+      (vols         (-0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0))
+      (cores        ( -1   -1   -1   -1    1    1   -1   -1   -1   -1 ))
+
+      (drum_solo
+         (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+      )
+      (drum_freestyle
+         (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+      )
+      (midi_file "songs/bakerstreet/bakerstreet.mid")
+      ;(hopo_threshold 170)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (drum_bank sfx/kit03_bank.milo)
+   (anim_tempo 32)
+   (song_length 366846)
+   (preview 27642 57642)
+   (rank
+      (drum 140)
+      (guitar 245)
+      (bass 235)
+      (vocals 200)
+      (keys 400)
+      (real_keys 420)
+      (band 244)
+   )
+   (genre 'classicrock')
+   (vocal_gender male)
+   (version 30)
+   (format 4)
+   (album_art TRUE)
+   (year_released 1978)
+   (rating 1)
+   (sub_genre 'subgenreclassicrock')
+   (song_id 1020822)
+   (tuning_offset_cents 0.0)
+   (game_origin 'rb4_dlc')
+   (album_track_number 2)
+   (album_name "City to City")   		; OPTIONAL  (e.g. for covers)
+   (decade 'the70s')
+   (downloaded TRUE)
+   (base_points 0)
+   (vocal_tonic_note 2)		; REQUIRED - VOX team - set this to correct note!
+   (keys_author "DVDSmith, BowlsforRick")
+   (song_tonality 0)			; REQUIRED - VOX team - 0 = major, 1 = minorfor all RB3 songs
+   ;(encoding latin1); OPTIONAL, required if name, artist, album_name, or pack_name contain non-ascii characters
+)
