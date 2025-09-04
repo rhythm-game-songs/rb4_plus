@@ -1,0 +1,70 @@
+(livinontheedge
+   (name
+      "Livin' on the Edge")
+   (artist
+      "Aerosmith")
+   (master 1)
+   (song
+      (name songs/livinontheedge/livinontheedge)
+      (tracks
+         ((drum
+               (0 1))
+            (bass
+               (2 3))
+            (guitar
+               (4 5))
+            (vocals
+               (6 7))
+            (keys
+               (8 9))))
+      (vocal_parts 3)
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -2.5 2.5))
+      (crowd_channels 10 11)
+      (vols
+         (-1.2 -1.2 -0.5 -0.5 -2.2 -2.2 0.0 0.0 -1.2 -1.2 -2.8 -2.8))
+      (cores
+         (-1 -1 -1 -1 1 1 -1 -1 -1 -1 -1 -1))
+      (drum_solo
+         (seqs
+            (kick.cue snare.cue tom1.cue tom2.cue crash.cue)))
+      (drum_freestyle
+         (seqs
+            (kick.cue snare.cue hat.cue ride.cue crash.cue)))
+      (midi_file songs/livinontheedge/livinontheedge.mid))
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo 16)
+   (song_length 366724)
+   (preview 83984 113984)
+   (solo (guitar))
+   (rank
+      (vocals 335)
+      (bass 216)
+      (guitar 272)
+      (drum 129)
+      (keys 213)
+      (real_keys 213)
+      (band 248))
+   (genre rock)
+   (author "Harmonix, Rhythm Authors")
+   (vocal_gender male)
+   (version 30)
+   (format 4)
+   (album_art 1)
+   (year_released 1993)
+   (rating 2)
+   (sub_genre subgenre_blues)
+   (song_id 1020256)
+   (tuning_offset_cents 0.0)
+   (vocal_tonic_note 2)
+   (song_tonality 0)
+   (game_origin rb4_dlc)
+   (album_name
+      "Get a Grip")
+   (album_track_number 5)
+   (context 2000)
+   (decade the90s)
+   (downloaded TRUE)
+   (base_points 0)
+   (keys_author "SonicSBL"))
