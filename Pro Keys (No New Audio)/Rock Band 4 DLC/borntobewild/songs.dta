@@ -81,7 +81,7 @@
    ('rating' 1)
    ;(real_guitar_tuning (0 0 0 0 0 0))
    ;(real_bass_tuning (0 0 0 0))
-   (keys_author "Septekka")
+   (keys_author "Septekka, SonicSBL")
    ;(strings_author "columbo777")
    ('sub_genre' 'subgenre_classicrock')
    ('song_id' 1020500)
