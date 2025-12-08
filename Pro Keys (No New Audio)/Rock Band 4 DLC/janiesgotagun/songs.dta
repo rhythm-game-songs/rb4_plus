@@ -1,0 +1,69 @@
+(janiesgotagun
+   (name
+      "Janie's Got a Gun")
+   (artist
+      "Aerosmith")
+   (master 1)
+   (song
+      (name songs/janiesgotagun/janiesgotagun)
+      (tracks
+         ((drum
+               (0 1))
+            (bass
+               (2 3))
+            (guitar
+               (4 5))
+            (vocals
+               (6 7))
+            (keys
+               (8 9))))
+      (vocal_parts 3)
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-1.2 -1.2 -1.3 -1.3 -2.0 -2.0 -0.0 -0.0 -1.0 -1.0))
+      (cores
+         (-1 -1 -1 -1 1 1 -1 -1 -1 -1))
+      (drum_solo
+         (seqs
+            (kick.cue snare.cue tom1.cue tom2.cue crash.cue)))
+      (drum_freestyle
+         (seqs
+            (kick.cue snare.cue hat.cue ride.cue crash.cue)))
+      (midi_file songs/janiesgotagun/janiesgotagun.mid))
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo 32)
+   (song_length 313815)
+   (preview 83135 113135)
+   (solo (guitar vocal_percussion))
+   (rank
+      (vocals 300)
+      (bass 186)
+      (guitar 279)
+      (drum 180)
+      (keys 289)
+      (real_keys 289)
+      (band 263))
+   (genre rock)
+   (author "Harmonix, Rhythm Authors")
+   (vocal_gender male)
+   (version 30)
+   (format 4)
+   (album_art 1)
+   (year_released 1989)
+   (rating 3)
+   (sub_genre subgenre_rock)
+   (song_id 1020259)
+   (tuning_offset_cents -15)
+   (vocal_tonic_note 5)
+   (song_tonality 0)
+   (game_origin rb4_dlc)
+   (album_name
+      "Pump")
+   (album_track_number 5)
+   (context 2000)
+   (decade the80s)
+   (downloaded TRUE)
+   (base_points 0)
+   (keys_author "SonicSBL"))

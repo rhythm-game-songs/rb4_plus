@@ -1,0 +1,72 @@
+(onlywannabewithyou
+   (name
+      "Only Wanna Be with You")
+   (artist
+      "Hootie & the Blowfish")
+   (master 1)
+   (song
+      (name 'songs/onlywannabewithyou/onlywannabewithyou')
+      (tracks
+         ((drum
+               (0 1))
+            (bass
+               (2 3))
+            (guitar
+               (4 5))
+            (vocals
+               (6 7))
+            (keys
+               (8 9))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1 -1 1 1 -1 -1 -1 -1))
+      (vocal_parts 2)
+      (drum_solo
+         (seqs
+            (kick.cue snare.cue tom1.cue tom2.cue crash.cue)))
+      (drum_freestyle
+         (seqs
+            (kick.cue snare.cue hat.cue ride.cue crash.cue)))
+      (midi_file 'songs/onlywannabewithyou/onlywannabewithyou.mid'))
+   (song_scroll_speed 2300)
+   (bank
+      "sfx/tambourine_bank.milo")
+   (anim_tempo kTempoMedium)
+   (song_length 229357)
+   (preview 68434 98434)
+   (solo (guitar vocal_percussion))
+   (rank
+      (band 262)
+      (guitar 250)
+      (drum 333)
+      (bass 260)
+      (vocals 165)
+      (keys 60)
+      (real_keys 60))
+   (genre alternative)
+   (vocal_gender male)
+   (version 30)
+   (format 4)
+   (album_art 1)
+   (year_released 1994)
+   (rating 1)
+   (sub_genre subgenre_alternative)
+   (song_id 1020201)
+   (tuning_offset_cents 0.0)
+   (vocal_tonic_note 6)
+   (song_tonality 0)
+   (game_origin rb4_dlc)
+   (album_name
+      "Cracked Rear View")
+   (album_track_number 4)
+   (ugc 0)
+   (author
+      "Harmonix, Rhythm Authors")
+   (keys_author "SonicSBL")
+   (context 2000)
+   (decade the90s)
+   (downloaded TRUE)
+   (base_points 0))
