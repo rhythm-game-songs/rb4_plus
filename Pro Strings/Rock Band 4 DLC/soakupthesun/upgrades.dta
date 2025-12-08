@@ -1,0 +1,12 @@
+(soakupthesun
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/soakupthesun_plus.mid")
+	(song_id 1020682)
+   (rank
+      (real_guitar 150)
+      (real_bass 135)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0)) real tuning has capo on 2nd, in-game is E Standard
+   (real_bass_tuning (0 0 0 0))
+   ;(strings_author "JohnSmith2007")
+)
