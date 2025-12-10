@@ -8,4 +8,5 @@
 | F.C.P.R.E.M.I.X | The Fall of Troy | G: E Standard<br>B: E Standard | same as in-game |
 | Jane | Jefferson Starship | G: E Standard<br>B: E Standard | same as in-game |
 | Sweater Weather | The Neighbourhood | G: D Standard<br>B: D Standard | G: E Standard<br>B: E Standard |
+| Soak Up the Sun | Sheryl Crow | G: E Standard<br>B: E Standard | G: E Standard (Capo on 2nd)<br>B: same as in-game |
 | The Man Who Sold The World (Live) | Nirvana | G: E Standard<br>B: E Standard | G: Eb Standard<br>B: Eb Standard |
