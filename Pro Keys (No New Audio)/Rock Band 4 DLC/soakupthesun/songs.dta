@@ -1,0 +1,77 @@
+(soakupthesun
+   (name "Soak Up the Sun")
+   (artist "Sheryl Crow")
+   (master 1)
+   (context
+		{do
+			{$world iterate PostProc $p
+			{$p set saturation 100}}
+		}
+		{do
+			{$world iterate PostProc $p
+			{$p set bloom_intensity 10}}
+		}
+		{do
+			{$world iterate PostProc $p
+			{$p set hue 10}}
+		}
+	)
+   (song
+      (name         "songs/soakupthesun/soakupthesun")
+      (tracks
+         ((drum (0 1))
+          (bass (2 3))
+          (guitar (4 5))
+          (vocals (6 7))
+          (keys (8 9))
+         )
+      )
+      (vocal_parts 3)
+      (pans         (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0))
+      (vols         (-0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0))
+      (cores        ( -1   -1   -1   -1    1    1   -1   -1   -1   -1 ))
+      (drum_solo
+         (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+      )
+      (drum_freestyle
+         (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+      )
+      (midi_file "songs/soakupthesun/soakupthesun.mid")
+      ;(hopo_threshold 170)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   ;(drum_bank sfx/kit01_bank.milo)
+   (anim_tempo 32)
+   (song_length 291757)
+   (preview 67921 97921)
+   (rank
+      (drum 152)
+      (guitar 150)
+      (bass 135)
+      (vocals 200)
+      (keys 282)
+      (real_keys 395)
+      (band 216)
+   )
+   (genre 'poprock')
+   (vocal_gender female)
+   (version 30)
+   (format 4)
+   (album_art TRUE)
+   (year_released 2002)
+   (rating 1)
+   (song_id 1020682)
+   (tuning_offset_cents 0.0)
+   (game_origin 'rb4_dlc')
+   (album_track_number 2)
+   (album_name "C'mon, C'mon")
+   (decade 'the00s')
+   (downloaded TRUE)
+   (base_points 0)
+   (vocal_tonic_note 4)
+   (song_tonality 0); - Only set this for pro guitar upgrades and if you know what you are doing
+   (keys_author "SonicSBL")
+   ;(encoding latin1); OPTIONAL, required if name, artist, album_name, or pack_name contain non-ascii characters
+)
+
