@@ -43,7 +43,7 @@
       (drum 495)
       (bass 429)
       (keys 257)
-      (real_keys 257)
+      (real_keys 279)
       (vocals 300))
    (genre prog)
    (vocal_gender male)
