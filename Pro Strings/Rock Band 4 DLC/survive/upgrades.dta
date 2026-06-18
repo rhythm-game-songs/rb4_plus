@@ -1,0 +1,12 @@
+(survive
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/survive_plus.mid")
+   (song_id 1020376)
+   (rank
+      (real_guitar 250)
+      (real_bass 206)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0)) 
+   (real_bass_tuning (0 0 0 0))
+   ;(strings_author "Aloquendiar")
+)
