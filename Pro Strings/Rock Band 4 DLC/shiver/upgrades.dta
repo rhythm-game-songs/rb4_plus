@@ -1,0 +1,12 @@
+(shiver
+   (upgrade_version 1)
+   (song_id 1020514)
+   (midi_file "songs_upgrades/shiver_plus.mid")
+   (rank
+      (real_guitar 405)
+      (real_bass 212)
+   )
+   (real_guitar_tuning (0 0 -1 0 0 -1))
+   (real_bass_tuning (0 0 0 0))
+   ;(strings_author "WarGod")
+)
