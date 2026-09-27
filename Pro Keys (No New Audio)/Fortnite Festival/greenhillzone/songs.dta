@@ -1,0 +1,81 @@
+(greenhillzone
+   (name "Green Hill Zone: Act 2 - Normal")
+   (artist "SEGA SOUND TEAM, Jun Senoue")
+   (master TRUE)
+   (context 2000)
+   (song
+     (name        "songs/greenhillzone/greenhillzone")
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (keys (6 7))
+        )
+     )
+     
+	 ;(vocal_parts -)	; OPTIONAL but REQUIRED for vocal harmony @@@@ Remove if no harmony @@@@
+     ;(crowd_channels )
+	 
+	 ;                DRUMS    	  BS       GUITAR     KEYS      FAKE
+     (pans        (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0))
+     (vols        (-0.0 -0.0  -0.0 -0.0  -0.0 -0.0  -0.0 -0.0  -0.0 -0.0))
+     (cores       ( -1   -1    -1   -1     1    1    -1   -1    -1   -1))
+	 
+	 
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/greenhillzone/greenhillzone.mid")
+     ;(hopo_threshold 90)
+   )
+   (song_scroll_speed 2300)
+   (drum_bank sfx/kit01_bank.milo)   ; OPTIONAL (kit01_bank.milo is default if not specified)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo 32)
+   (song_length 140957) 			; value is length of audio file in milliseconds ; fill in with correct length from Audio Verify
+   (preview 5243 35243)
+   (rank
+      (drum 250)
+      (guitar 322)
+      (bass 275)
+	   (vocals 0)
+      (keys 270)
+      (real_keys 270)
+      (band 298)
+   )
+   (genre novelty)
+   (decade the10s) ;@@@@ ADD @@@@ (e.g. the90s, the00s, the10s, the20s)
+   (vocal_gender male)
+   ;(tuning_offset_cents 0.0)
+
+   ;Song key is in C Major
+   (song_tonality 0)			; REQUIRED - VOX team - 0 = major, 1 = minorfor all RB3 songs
+   (vocal_tonic_note 0)		; REQUIRED - VOX team - set this to correct note!
+   (format 4)				 ; @@@@ 'toRB2' projects use 4, for max compatibility with all games @@@@
+   (version 0)               ; Only modified by coders! @@@@ Always set to 0 @@@@
+   ;(fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin fnfestival) 	; game origin that the song is from
+   (song_id 4210229)         		; ALWAYS set this to 0, unless you are Heather @@@@ Follow FortniteIDs.txt and the numerical index from Fortnite's servers @@@@
+   (rating 1)   			; 1 = everyone, 2 = teen, 3 = mature, 4 = unrated
+   (short_version 0) 		; if set to 0, there is no short version of the song (milliseconds)
+   ;(extra_authoring ^^^) 	; flag to designate that a song has extra authoring (files, etc.) for a specific project(s)
+   (album_art TRUE) 		; if TRUE, the actual album art will be required
+   
+   ;(quickplay (venue small_club_01)) ; forces a specific venue when in QP modes
+   
+   (year_released 2012)
+   ;(year_recorded 2010)  	; OPTIONAL - only to be used for re-records
+   (album_name "Sonic Generations Official Soundtrack")   		; OPTIONAL  (e.g. for covers)
+   (album_track_number 3)   ; OPTIONAL (would require album_name if added). If omitted Set Challenges use difficulty sorting. Cannot exist without album_name!
+   (author "Harmonix, Rhythm Authors")
+   (keys_author "Linos Melendi")
+   (bpm 159)
+	;(pack_name "^^^Moonwalk (or die...) 3-pack^^^")  ; OPTIONAL
+   (base_points 0)
+   ;(encoding latin1) ; OPTIONAL, required if name, artist, album_name, or pack_name contain non-ascii characters
+   ;Date (9/22/26)
+)
