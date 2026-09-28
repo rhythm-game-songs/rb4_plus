@@ -1,0 +1,12 @@
+(superman2
+   (upgrade_version 1)
+   (song_id 1020563)
+   (midi_file "songs_upgrades/superman2_plus.mid")
+   (rank
+      (real_guitar 345)
+      (real_bass 320)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+   ;(strings_author "Brandunce, RussTSprinkler")
+)
