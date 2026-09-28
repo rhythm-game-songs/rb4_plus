@@ -1,0 +1,12 @@
+(rebellion
+	(upgrade_version 1)
+	(midi_file 'songs/rebellion/rebellion_plus.mid'))
+	(song_id 1020019)
+    (rank
+       (real_guitar 384)
+       (real_bass 442)
+    )
+    (real_guitar_tuning (-4 -2 -2 -2 -2 -2))
+    (real_bass_tuning (-4 -2 -2 -2))
+    ;(strings_author "Luna"))
+)
