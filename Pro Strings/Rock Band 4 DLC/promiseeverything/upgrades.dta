@@ -1,0 +1,12 @@
+(promiseeverything
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/promiseeverything_plus.mid")
+   (song_id 1020224)
+   (rank
+      (real_guitar 230)
+      (real_bass 170)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0)) ; Real tuning is Eb standard
+   (real_bass_tuning (0 0 0 0)) ; Real tuning is Eb standard
+   ;(rb3_plus_author CatWithAMustache)
+)
