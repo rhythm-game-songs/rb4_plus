@@ -1,0 +1,118 @@
+(
+   'superman2'
+   (
+      'name'
+      "Superman"
+   )
+   (
+      'artist'
+      "Goldfinger"
+   )
+   ('master' 'TRUE')
+   ('context' 2000)
+   (
+      'song'
+      (
+         'name'
+         "songs/superman2/superman2"
+      )
+      (
+         'tracks'
+         (
+            (
+               'drum'
+               (0 1)
+            )
+            (
+               'bass'
+               (2 3)
+            )
+            (
+               'guitar'
+               (4 5)
+            )
+            (
+               'vocals'
+               (6 7)
+            )
+            (
+               'keys'
+               (8 9)
+            )
+         )
+      )
+      ('vocal_parts' 3)
+      (
+         'pans'
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0)
+      )
+      (
+         'vols'
+         (-0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0)
+      )
+      (
+         'cores'
+         (-1 -1 -1 -1 1 1 -1 -1 -1 -1 -1 -1)
+      )
+      (
+         'drum_solo'
+         (
+            'seqs'
+            ('kick.cue' 'snare.cue' 'tom1.cue' 'tom2.cue' 'crash.cue')
+         )
+      )
+      (
+         'drum_freestyle'
+         (
+            'seqs'
+            ('kick.cue' 'snare.cue' 'hat.cue' 'ride.cue' 'crash.cue')
+         )
+      )
+      (midi_file "songs/superman2/superman2.mid")
+   )
+   ('song_scroll_speed' 2300)
+   ('bank' 'sfx/tambourine_bank.milo')
+   ('anim_tempo' 64)
+   ('song_length' 189812)
+   ('preview' 63721 93721)
+   (
+      'rank'
+      ('drum' 345)
+      ('guitar' 333)
+      ('bass' 293)
+      ('vocals' 279)
+      ('keys' 255
+      ('real_keys' 220)
+      ('band' 267)
+   )
+   ('genre' 'reggaeska')
+   ('decade' 'the90s')
+   ('vocal_gender' 'male')
+   ('vocal_tonic_note' 2)
+   ('format' 10)
+   ('version' 30)
+   ('downloaded' 'TRUE')
+   ('game_origin' 'rb4_dlc')
+   ('song_id' 1020563)
+   ('rating' 1)
+   ('short_version' 0)
+   ('album_art' 'TRUE')
+   ('year_released' 1997)
+   (
+      'album_name'
+      "Hang-Ups"
+   )
+   ('album_track_number' 1)
+   ('base_points' 0)
+;(crowd_channels )
+;                DRUMS    	  BS       GUITAR     VOCALS      FAKE
+;(hopo_threshold 90)
+;(tuning_offset_cents 0.0)
+;(song_tonality 0)			; REQUIRED - VOX team - 0 = major, 1 = minorfor all RB3 songs
+;(fake {== $SONG_VERSION 0})
+;(extra_authoring ^^^) 	; flag to designate that a song has extra authoring (files, etc.) for a specific project(s)
+;(year_recorded 2010)  	; OPTIONAL - only to be used for re-records
+;(pack_name "^^^Moonwalk (or die...) 3-pack^^^")  ; OPTIONAL
+;(encoding latin1) ; OPTIONAL, required if name, artist, album_name, or pack_name contain non-ascii characters
+(keys_author "RussTSprinkler")
+)
