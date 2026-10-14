@@ -1,0 +1,61 @@
+(survive3
+   (name "Survive")
+   (artist "The Warning")
+   (master TRUE) 
+   (song_id 1020376)  ; get from ...\RB3_VERSION\RB4_DLC_SongID.xlsx (joke)
+   (song
+     (name        "songs/survive/survive")
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+         (keys (8 9))
+        )
+     )
+     (vocal_parts 3)    ; OPTIONAL but REQUIRED for vocal harmony
+     ;                 KIT        BASS      GUITAR     VOCALS      KEYS      TRACKS   
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.0 -4.0  -4.0 -4.0  -4.0 -4.0  -4.0 -4.0  -5.0 -5.0  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1    -1   -1  ))
+    (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+   )
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (band_fail_cue band_fail_rock_keys.cue)  
+   (song_scroll_speed 2300)
+   (preview 173333 203333)
+   (song_length 311109)  ; fill in with correct length from Audio Verify           
+   (rank
+      (drum 347)
+      (guitar 276)
+      (bass 202)
+      (vocals 201)
+      (keys 330)
+      ;(real_guitar 100)
+      ;(real_bass 100)
+      (real_keys 330)
+      (band 264)
+   )
+   (solo (vocal_percussion))
+   (format 10)
+   (version 30)
+   (game_origin rb4_dlc)
+   (rating 1)     ; 1 = everyone, 2 = teen, 3 = mature, 2 = unrated
+   (genre rock) 
+   (vocal_gender female)
+   (short_version 0)    ; OPTIONAL - if set to 0, there is no short version of the song (milliseconds)
+   (year_released 2017)
+   ;(year_recorded 2010)  ; OPTIONAL - only to be used for re-records
+   (album_art TRUE)            ; OPTIONAL - defaults to false if it does not exist
+   (album_name "XXI Century Blood")        ; OPTIONAL
+   (author "Harmonix, Rhythm Authors") ; OPTIONAL
+   (album_track_number 3)      ; OPTIONAL - cannot exist without album_name
+   (vocal_tonic_note 11)           ; REQUIRED - VOX team - set this to correct note!
+   (song_tonality 1)           ; REQUIRED - VOX team - 0 = major, 1 = minorfor all RB3 songs
+)
