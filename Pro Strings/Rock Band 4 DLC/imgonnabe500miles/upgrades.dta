@@ -1,0 +1,12 @@
+(imgonnabe500miles
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/imgonnabe500miles_plus.mid")
+   (song_id 1020435)
+   (rank
+      (real_guitar 142)
+      (real_bass 184)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+   ;(rb3_plus_author WarGod, carlmylo)
+)
