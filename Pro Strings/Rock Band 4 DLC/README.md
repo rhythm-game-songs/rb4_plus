@@ -10,3 +10,4 @@
 | Jane | Jefferson Starship | G: E Standard<br>B: E Standard | same as in-game |
 | Sweater Weather | The Neighbourhood | G: D Standard<br>B: D Standard | G: E Standard<br>B: E Standard |
 | The Man Who Sold The World (Live) | Nirvana | G: E Standard<br>B: E Standard | G: Eb Standard<br>B: Eb Standard |
+| Jumper | Third Eye Blind | G: E Standard<br>B: E Standard | same as in-game |
