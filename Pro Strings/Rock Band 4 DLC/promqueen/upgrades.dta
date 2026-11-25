@@ -1,0 +1,11 @@
+(promqueen
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/promqueen_plus.mid")
+   (song_id 1020473)
+   (rank
+      (real_guitar 224)
+      (real_bass 206)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0)) ;
+   (real_bass_tuning (0 0 0 0)) ;
+   ;(rb3_plus_author CatWithAMustache)
